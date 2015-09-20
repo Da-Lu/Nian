@@ -55,6 +55,7 @@ var PlayScene = cc.Scene.extend({
         this.gameLayer.addChild(new AnimationLayer(this.space), 0, TagOfLayer.Animation);
         this.addChild(this.gameLayer);
         this.addChild(new StatusLayer(), 0, TagOfLayer.Status);
+        // this.addChild(new ControlLayer());
 
         //add background music
         //cc.audioEngine.playMusic(res.background_ogg, true);
